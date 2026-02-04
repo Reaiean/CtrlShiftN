@@ -1,1 +1,27 @@
+choosen specialization: cybersecurity Forensics
 
+Week 1: Forensics Fundamentals & Incident Awareness
+Focus: What cyber forensics is + how incidents are identified
+
+Days 1–2
+What is cybersecurity forensics?
+Difference: digital forensics vs incident response
+Types of cyber incidents (breach, malware, insider threat)
+Evidence types in cyber attacks (logs, files, memory, network)
+
+Days 3–4
+Forensics lifecycle:
+Identification
+Preservation
+Collection
+Examination
+Analysis
+Reporting
+Volatile vs non-volatile evidence
+Live vs dead forensics
+
+Days 5–6
+Incident detection basics
+Indicators of Compromise (IOCs)
+Understanding logs as forensic evidence
+False positives vs real incidents
