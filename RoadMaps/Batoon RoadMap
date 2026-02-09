@@ -1,0 +1,43 @@
+Week 1: Cryptography Fundamentals & Security Awareness
+Focus: What cryptography is + why it’s critical in cybersecurity
+
+Days 1–2
+What is cryptography?
+Definition and goals of cryptography
+Cryptography vs encoding vs hashing
+Why cryptography is essential in cybersecurity
+
+Where cryptography is used:
+Password protection
+Secure communications (HTTPS, VPNs)
+Digital payments
+Data storage security
+
+Days 3–4
+Types of cryptography:
+Symmetric encryption (shared key)
+Asymmetric encryption (public/private key)
+Hash functions
+
+Key concepts:
+Plaintext vs ciphertext
+Encryption vs decryption
+Keys and key length
+Strength vs performance trade-offs
+
+Days 5–6
+Common cryptographic algorithms (high level):
+Symmetric: AES, DES (why DES is broken)
+Asymmetric: RSA, ECC
+Hashing: SHA-256, MD5 (why MD5 is insecure)
+
+Cryptography in real-world security:
+Password hashing vs encryption
+Digital signatures (basic idea)
+Certificates and trust
+
+Week 2:
+
+Week 3:
+
+Week 4:
