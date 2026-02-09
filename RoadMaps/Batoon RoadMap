@@ -2,16 +2,13 @@ Week 1: Cryptography Fundamentals & Security Awareness
 Focus: What cryptography is + why it’s critical in cybersecurity
 
 Days 1–2
+Read basic cryptography concepts
 What is cryptography?
 Definition and goals of cryptography
 Cryptography vs encoding vs hashing
 Why cryptography is essential in cybersecurity
 
-Where cryptography is used:
-Password protection
-Secure communications (HTTPS, VPNs)
-Digital payments
-Data storage security
+Try Cryptography Basics in TryHackMe to apply terms like plaintext/ciphertext and simple ciphers
 
 Days 3–4
 Types of cryptography:
@@ -19,11 +16,8 @@ Symmetric encryption (shared key)
 Asymmetric encryption (public/private key)
 Hash functions
 
-Key concepts:
-Plaintext vs ciphertext
-Encryption vs decryption
-Keys and key length
-Strength vs performance trade-offs
+Do hands-on exercises in TryHackMe (hashing and simple symmetric/asymmetric examples)
+Optionally view HTTPS/TLS modules in PortSwigger Academy to relate cryptography → real web security
 
 Days 5–6
 Common cryptographic algorithms (high level):
@@ -31,10 +25,8 @@ Symmetric: AES, DES (why DES is broken)
 Asymmetric: RSA, ECC
 Hashing: SHA-256, MD5 (why MD5 is insecure)
 
-Cryptography in real-world security:
-Password hashing vs encryption
-Digital signatures (basic idea)
-Certificates and trust
+Complete Breaking Crypto the Simple Way to practice weak crypto cases and key brute-forcing
+Try additional rooms like Crack the Hash for practical hash cracking
 
 Week 2:
 
