@@ -1,23 +1,23 @@
-# 📊 Individual Progress Scorecard
+📊 Individual Progress Scorecard
 
-## Daily Training Log
+Daily Training Log
 
-**Date:** _______________ | **Training Day:** ___/180 (or ___/90 for 3-month plan)
+Date: _______________ | Training Day: ___/180 (or ___/90 for 3-month plan)
 
-### 1. Time Investment
+ 1. Time Investment
 
 - [ ] Training time today: _______ hours
 - [ ] Goal met? (Yes/No)
 - [ ] Consistency streak: _____ days
 
-**Points:**
+Points
 
-- 2+ hours = 10 points
-- 1-2 hours = 5 points
-- <1 hour = 2 points
-- Missed day = 0 points (streak resets)
+ 2+ hours = 10 points
+ 1-2 hours = 5 points
+ <1 hour = 2 points
+ Missed day = 0 points (streak resets)
 
-### 2. Challenge Completion
+ 2. Challenge Completion
 
 | Difficulty      | Challenges Solved | Points Earned |
 | --------------- | ----------------- | ------------- |
@@ -27,7 +27,7 @@
 | Expert          | _____ × 50 pts    | _____         |
 | **Daily Total** |                   | **_____**     |
 
-### 3. Quality Indicators
+ 3. Quality Indicators
 
 - [ ] Created writeup for at least 1 challenge (+10 pts)
 - [ ] Reviewed 3+ writeups from others (+5 pts)
@@ -35,9 +35,9 @@
 - [ ] Updated cheat sheet (+5 pts)
 - [ ] Practiced timed challenge (+5 pts)
 
-**Quality Points Total:** _____
+Quality Points Total _____
 
-### 4. Category Focus Today
+ 4. Category Focus Today
 
 Which categories did you practice?
 
@@ -49,35 +49,35 @@ Which categories did you practice?
 - [ ] OSINT
 - [ ] Other: ___________
 
-**Primary Specialty:** _____ minutes
+Primary Specialty _____ minutes
 
-**Secondary Specialty:** _____ minutes
+Secondary Specialty: _____ minutes
 
-**Other Categories:** _____ minutes
+Other Categories: _____ minutes
 
-### 5. Reflection (Qualitative)
+ 5. Reflection (Qualitative)
 
-**What went well today?**
-
----
-
-**What challenged you?**
+What went well today?
 
 ---
 
-**Key learning:**
+What challenged you?
 
 ---
 
-**Tomorrow's focus:**
+Key learning:
 
 ---
 
-# Weekly Progress Summary
+Tomorrow's focus:
 
-**Week:** ___ of ___ | **Dates:** _**/**_/___ to _**/**_/___
+---
 
-## Weekly Metrics
+Weekly Progress Summary
+
+Week: ___ of ___ | Dates: _/_/___ to _/_/___
+
+ Weekly Metrics
 
 | Metric                 | Target | Actual | Status |
 | ---------------------- | ------ | ------ | ------ |
@@ -88,7 +88,7 @@ Which categories did you practice?
 | Writeups Created       | 3-5    | _____  | ☐ ✓/✗  |
 | New Techniques Learned | 2-3    | _____  | ☐ ✓/✗  |
 
-## Weekly Points Breakdown
+ Weekly Points Breakdown
 
 | Source               | Points    |
 | -------------------- | --------- |
@@ -99,18 +99,17 @@ Which categories did you practice?
 | Writeups & Learning  | _____     |
 | **Weekly Total**     | **_____** |
 
-## Category Distribution (Hours This Week)
+ Category Distribution (Hours This Week)
 
-```
+
 Web Exploitation:     _____ hours [========] ____%
 Binary Exploitation:  _____ hours [========] ____%
 Cryptography:        _____ hours [========] ____%
 Reverse Engineering: _____ hours [========] ____%
 Forensics:           _____ hours [========] ____%
 OSINT:               _____ hours [========] ____%
-```
 
-## Skill Level Assessment (Self-Rated 1-10)
+ Skill Level Assessment (Self-Rated 1-10)
 
 | Specialty  | Last Week | This Week | Change |
 | ---------- | --------- | --------- | ------ |
@@ -118,7 +117,7 @@ OSINT:               _____ hours [========] ____%
 | Primary #2 | _____     | _____     | _____  |
 | Secondary  | _____     | _____     | _____  |
 
-## Weekly Achievements
+ Weekly Achievements
 
 - [ ] Solved first challenge in new category
 - [ ] Completed difficult challenge independently
@@ -127,29 +126,29 @@ OSINT:               _____ hours [========] ____%
 - [ ] Improved solve time by 20%+
 - [ ] Other: _____________________
 
-## Weekly Challenges & Lessons
+ Weekly Challenges & Lessons
 
-**Biggest challenge this week:**
-
----
-
-**How you overcame it (or plan to):**
+Biggest challenge this week:
 
 ---
 
-**Most valuable lesson learned:**
+How you overcame it (or plan to):
 
 ---
 
-**Adjustment for next week:**
+Most valuable lesson learned:
 
 ---
 
-# Monthly Progress Report
+Adjustment for next week:
 
-**Month:** ___ of ___ | **Program:** ☐ 3-Month ☐ 6-Month ☐ Long-Term
+---
 
-## Monthly Statistics
+Monthly Progress Report
+
+Month: ___ of ___ | Program: ☐ 3-Month ☐ 6-Month ☐ Long-Term
+
+ Monthly Statistics
 
 | Metric               | Month Goal | Achieved | % of Goal |
 | -------------------- | ---------- | -------- | --------- |
@@ -162,7 +161,7 @@ OSINT:               _____ hours [========] ____%
 | Live CTF Solves      | 10-20      | _____    | _____%    |
 | Writeups Created     | 15-20      | _____    | _____%    |
 
-## Monthly Points Total: _____
+ Monthly Points Total: _____
 
 **Point Milestones:**
 
@@ -171,9 +170,9 @@ OSINT:               _____ hours [========] ____%
 - 🥇 Gold (3000-3999 pts): Advanced Competitor
 - 💎 Platinum (4000+ pts): Elite Performer
 
-**Your Tier This Month:** _____________
+Your Tier This Month: _____________
 
-## Skill Progression Matrix
+ Skill Progression Matrix
 
 Rate yourself (1-5 scale: 1=Novice, 3=Intermediate, 5=Expert)
 
@@ -190,7 +189,7 @@ Rate yourself (1-5 scale: 1=Novice, 3=Intermediate, 5=Expert)
 |- Advanced techniques|___|___|___|
 |- Speed/efficiency|___|___|___|
 
-## Competition Performance (if applicable)
+ Competition Performance (if applicable)
 
 |CTF Name|Date|Rank|Solves|Time|Notes|
 |---|---|---|---|---|---|
@@ -198,17 +197,17 @@ Rate yourself (1-5 scale: 1=Novice, 3=Intermediate, 5=Expert)
 |||||||
 |||||||
 
-## Monthly Milestone Check
+ Monthly Milestone Check
 
 Based on your training program, check completed milestones:
 
-**3-Month Program:**
+3-Month Program:
 
 - Month 1: [ ] 60+ challenges, [ ] 4 CTFs, [ ] Chosen specialties
 - Month 2: [ ] 40+ medium challenges, [ ] 8 CTFs total
 - Month 3: [ ] 4-5 solves per CTF, [ ] Competition ready
 
-**6-Month Program:**
+6-Month Program:
 
 - Month 1: [ ] 80+ challenges, [ ] Basic tool proficiency
 - Month 2: [ ] 180+ total challenges, [ ] Specialties chosen, [ ] 20+ writeups
@@ -217,18 +216,9 @@ Based on your training program, check completed milestones:
 - Month 5: [ ] 7-10 CTF solves, [ ] Team optimized, [ ] 80+ writeups
 - Month 6: [ ] 8-12+ CTF solves, [ ] Competition ready, [ ] 100+ writeups
 
-## Goals for Next Month
+Goals for Next Month
 
-**Skill Goals:**
-
-1. ---
-    
-2. ---
-    
-3. ---
-    
-
-**Performance Goals:**
+Skill Goals:
 
 1. ---
     
@@ -237,7 +227,16 @@ Based on your training program, check completed milestones:
 3. ---
     
 
-**Learning Goals:**
+Performance Goals:
+
+1. ---
+    
+2. ---
+    
+3. ---
+    
+
+Learning Goals:
 
 1. ---
     
