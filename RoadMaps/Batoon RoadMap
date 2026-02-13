@@ -16,8 +16,7 @@ Symmetric encryption (shared key)
 Asymmetric encryption (public/private key)
 Hash functions
 
-Do hands-on exercises in TryHackMe (hashing and simple symmetric/asymmetric examples)
-Optionally view HTTPS/TLS modules in PortSwigger Academy to relate cryptography → real web security
+Do hands-on exercises in cryptohack (hashing and simple symmetric/asymmetric examples)
 
 Days 5–6
 Common cryptographic algorithms (high level):
@@ -25,8 +24,7 @@ Symmetric: AES, DES (why DES is broken)
 Asymmetric: RSA, ECC
 Hashing: SHA-256, MD5 (why MD5 is insecure)
 
-Complete Breaking Crypto the Simple Way to practice weak crypto cases and key brute-forcing
-Try additional rooms like Crack the Hash for practical hash cracking
+Try additional rooms in cryptohack.
 
 Week 2:
 
