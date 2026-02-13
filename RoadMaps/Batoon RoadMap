@@ -8,7 +8,7 @@ Definition and goals of cryptography
 Cryptography vs encoding vs hashing
 Why cryptography is essential in cybersecurity
 
-Try Cryptography Basics in TryHackMe to apply terms like plaintext/ciphertext and simple ciphers
+Try Cryptography Basics in cryptohack to apply terms like plaintext/ciphertext and simple ciphers
 
 Days 3–4
 Types of cryptography:
