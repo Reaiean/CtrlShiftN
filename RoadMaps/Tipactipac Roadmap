@@ -3,129 +3,97 @@ WEEK 1
 Days 1–2
 Introduction to OSINT
 
-What is OSINT
-OSINT vs other types of intelligence (HUMINT, SIGINT)
-Why OSINT is useful in cybersecurity, investigations, or research
-Legal and ethical rules
-Passive vs active searching
+In this part, I will introduce what OSINT (Open-Source Intelligence) is and how it works. I will explain the difference between OSINT and other types of intelligence such as HUMINT and SIGINT. I will also discuss why OSINT is useful in cybersecurity, investigations, and research.
 
-Example activities:
-Searching public social media
-Reviewing LinkedIn profiles
-Gathering basic website information
+I will cover the legal and ethical rules we must follow when doing OSINT, and I will explain the difference between passive and active searching.
+
+Activities may include searching public social media accounts, reviewing LinkedIn profiles, and gathering basic website information.
 
 Days 3–4
 OSINT Process
 
-Steps in OSINT work:
+Here, I will explain the step-by-step OSINT process:
 
-Plan what information you need
+I plan what information I need.
 
-Collect data
+I collect data from open sources.
 
-Analyze it
+I analyze the information.
 
-Report your findings
+I report my findings clearly.
 
-Checking if sources are reliable
-Identifying misinformation
-Verifying information using multiple sources
+I will also show how to check if sources are reliable, how to identify misinformation, and how to verify information using multiple sources.
 
-Example: Verify a public post using different websites
+Example activity: I will verify a public post by checking different websites and references.
 
 Days 5–6
 Finding Digital Footprints
 
-What is a digital footprint
-Metadata basics (information hidden in photos or files)
-Searching usernames or emails
-Basic social media search techniques
+In this section, I will explain what a digital footprint is and how information about a person or organization can appear online. I will introduce basic metadata concepts, such as hidden information inside photos or files.
 
-Tools to try:
+I will practice searching usernames or emails and applying basic social media search techniques.
+
+Tools I will try:
 Google search
 Google Dorks (basic operators)
 Wayback Machine
 HaveIBeenPwned
 
-Example exercise: Take a public username and find where it appears online
+Example exercise: I will take a public username and try to find where it appears online.
 
 WEEK 2
 
-Intramurals
-No academic sessions
+During Week 2, we will have intramurals, so there will be no academic sessions.
 
 WEEK 3
 
-Prelims
-No academic sessions
+During Week 3, we will focus on prelims, so there will be no academic sessions.
 
 WEEK 4
 
 Day 1
 Advanced Search Techniques
 
-Advanced Google Dorks (site:, filetype:, intitle:, inurl:)
-Finding exposed documents
-Searching specific file types (PDF, DOCX, XLSX)
-Using cached and archived pages
+I will practice advanced Google Dorks such as site:, filetype:, intitle:, and inurl:. I will learn how to find publicly available documents and search for specific file types like PDF, DOCX, and XLSX. I will also explore cached and archived pages.
 
-Exercise: Find publicly available documents from an organization
+Exercise: I will try to locate publicly available documents from a specific organization.
 
 Day 2
 Website and Infrastructure OSINT
 
-Domain investigation basics
-WHOIS lookup
-DNS information gathering
-Basic subdomain discovery
-Identifying website technologies
+I will learn the basics of domain investigation, including WHOIS lookup and DNS information gathering. I will explore basic subdomain discovery and identify website technologies.
 
-Exercise: Investigate a public website’s domain and technology stack
+Exercise: I will investigate a public website’s domain and technology stack.
 
 Day 3
 Image and Geolocation OSINT
 
-Reverse image search
-Basic EXIF metadata review
-Identifying landmarks and environmental clues
-Introduction to geolocation techniques
+I will practice reverse image searching and review basic EXIF metadata. I will learn how to identify landmarks and environmental clues to determine where a photo was taken.
 
-Exercise: Verify where a photo was taken using open sources
+Exercise: I will verify the location of a photo using open sources.
 
 Day 4
 Breach and Exposure Research
 
-Understanding data breaches
-Checking email exposure in breach databases
-Paste sites and public leaks
-Password reuse risks (concept only)
+I will study how data breaches happen and how to check if an email address has been exposed in breach databases. I will learn about paste sites and public leaks, as well as the risks of password reuse.
 
-Exercise: Check a test email address for exposure
+Exercise: I will check a test email address for exposure.
 
 Day 5
 Social Media Deep Dive
 
-Advanced profile analysis
-Cross-platform username tracking
-Timeline analysis
-Basic network mapping
+I will conduct deeper profile analysis, track usernames across platforms, analyze timelines, and map basic networks of connections.
 
-Exercise: Map public connections of a sample profile
+Exercise: I will map the public connections of a sample profile.
 
 Day 6
 Final Practical OSINT Mini Project
 
-Choose a public target (company, fictional case, or public figure)
-Define your objective
-Apply the OSINT process:
-Plan
-Collect
-Analyze
-Report
+For the final project, I will choose a public target such as a company, fictional case, or public figure. I will define my objective and apply the full OSINT process:
 
-Final submission should include:
-Objective
-Sources used
-Findings
-Verification steps
-Ethical considerations
+I will plan what I need to find.
+I will collect information from open sources.
+I will analyze the data.
+I will report my findings.
+
+My final submission will include the objective, sources used, findings, verification steps, and ethical considerations.
