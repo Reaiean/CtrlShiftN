@@ -1,1 +1,47 @@
+When Hearts Collide – TryHackMe Write-Up
+Introduction:
 
+The When Hearts Collide room in TryHackMe is a beginner-friendly cryptography challenge that focuses on understanding MD5 hash collisions. The challenge presents a website where users can upload images of dogs to find their perfect match. The application compares the MD5 hash of uploaded images to determine matches.
+The goal of this room is to exploit the weakness of the MD5 hashing algorithm by generating two different files that produce the same hash value. By taking advantage of this vulnerability, it becomes possible to trick the application and capture the flag. This challenge helped me understand why MD5 is considered insecure in modern cybersecurity.
+
+Step 1: Deploying the Machine
+
+I started by deploying the machine on the TryHackMe platform. After the machine finished loading, the platform provided a target IP address.
+To access the web application, I opened my browser and entered the provided IP address in the address bar. This opened the When Hearts Collide website where the challenge takes place.
+
+Step 2: Exploring the Website
+
+When I first visited the website, I saw a simple interface where users can upload images of dogs. The website then generates an MD5 hash of the uploaded image and uses it to find a matching dog.
+At first, the system appears to rely on the MD5 hash to uniquely identify images. However, MD5 is a weak hashing algorithm that is vulnerable to hash collisions, meaning two different files can produce the same hash value.
+Because of this weakness, I suspected that the challenge involved creating two different files with the same MD5 hash.
+
+Step 3: Understanding the Vulnerability
+
+A hash collision occurs when two different inputs generate the same hash output. In secure systems, hashing algorithms should produce unique hashes for different files.
+However, MD5 has been broken for many years and attackers can generate collisions using specialized tools. If the website trusts MD5 hashes for file validation, it becomes possible to trick the system by uploading two different files with identical hashes.
+This is the main vulnerability that the challenge demonstrates.
+
+Step 4: Generating Colliding Files
+
+To exploit this vulnerability, I used a tool called fastcoll, which is designed to generate two files that share the same MD5 hash.
+Using the tool, I generated two different files that produce the exact same MD5 hash value.
+Even though the files are different, the system will treat them as identical because the hash values match.
+
+Step 5: Uploading the File
+After generating the colliding files, I uploaded them to the web application.
+Because both files share the same MD5 hash, the system incorrectly assumes that they are the same image. This allows the application logic to be manipulated and triggers the condition needed to reveal the flag.
+
+Step 6: Capturing the Flag
+
+Once the files were successfully uploaded and processed by the application, the system revealed the flag.
+I copied the flag and submitted it on TryHackMe to complete the room successfully.
+
+Conclusion:
+
+The When Hearts Collide challenge demonstrates the dangers of using outdated cryptographic algorithms like MD5. Since MD5 is vulnerable to collisions, attackers can generate different files that produce the same hash and bypass security checks.
+Through this challenge, I learned the importance of:
+Avoiding weak hashing algorithms like MD5
+Understanding how hash collisions work
+Using secure alternatives such as SHA-256
+Recognizing how cryptographic weaknesses can affect real systems
+This room helped reinforce the importance of using modern cryptographic standards when building secure applications.
