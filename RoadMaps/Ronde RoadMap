@@ -11,7 +11,7 @@ Days 3–4
 HTML & JavaScript essentials
 Client-side vs server-side validation
 TryHackMe: Web Fundamentals
-                                  
+
 Days 5–6
 Manual recon techniques:
 URL parameter tampering
@@ -22,9 +22,117 @@ Solve 5 easy web challenges
 Weekend (Free Time)
 Attempt only web challenges
 Write brief notes on what confused you
-                                  
-2nd Week
 
-3rd Week
+Week 2: Input Vulnerabilities (XSS & Injection)
+Focus: Exploiting improper input validation
 
-4th Week
+Days 1–2
+Cross-Site Scripting (XSS) basics
+Types of XSS:
+Stored XSS
+Reflected XSS
+DOM-based XSS
+Practice basic payloads and test inputs.
+TryHackMe: XSS Room
+PortSwigger Web Security Academy: XSS labs (beginner)
+
+Days 3–4
+SQL Injection basics
+Understanding database queries and login bypass
+Topics:
+Basic SQL Injection
+Authentication bypass
+UNION-based injection
+Practice:
+picoCTF SQL Injection challenges
+PortSwigger SQL Injection labs
+
+Days 5–6
+Tools for web exploitation:
+Learn to use:
+Burp Suite (Proxy & Repeater)
+Basic request interception
+Modifying parameters
+Practice modifying requests and testing input fields.
+
+Weekend (Free Time)
+Solve 5 web challenges related to:
+XSS
+SQL Injection
+Write a short write-up of one solved challenge.
+
+Week 3: Web Enumeration & File Vulnerabilities
+Focus: Finding hidden files and server weaknesses
+
+Days 1–2
+Directory and file discovery
+Tools:
+Gobuster
+Dirsearch
+Practice finding:
+hidden directories
+admin panels
+backup files
+TryHackMe: Content Discovery
+
+Days 3–4
+File Upload Vulnerabilities
+Topics:
+Unrestricted file uploads
+Uploading web shells
+Bypassing file filters
+Practice rooms:
+TryHackMe: Upload Vulnerabilities
+
+Days 5–6
+Local File Inclusion (LFI)
+Learn:
+What LFI is
+Accessing sensitive files like /etc/passwd
+Basic LFI exploitation
+Practice:
+PortSwigger LFI labs
+
+Weekend (Free Time)
+Attempt 5 intermediate web challenges.
+Focus on:
+Directory discovery
+File inclusion
+File upload bypass
+Document your solutions.
+
+Week 4: Authentication & Real-World Attack Techniques
+Focus: Breaking login systems and understanding common vulnerabilities
+
+Days 1–2
+Authentication vulnerabilities
+Topics:
+Weak login systems
+Brute force attacks
+Session hijacking
+Tools:
+Hydra
+Burp Suite Intruder
+Practice on beginner labs.
+
+Days 3–4
+Broken Access Control
+Learn:
+IDOR (Insecure Direct Object Reference)
+Privilege escalation through web apps
+Practice:
+PortSwigger Access Control labs
+
+Days 5–6
+Combining vulnerabilities
+Learn how attackers chain vulnerabilities such as:
+XSS + session hijacking
+SQL injection + admin access
+File upload + remote code execution
+Solve 3–5 intermediate web exploitation challenges.
+
+Weekend (Free Time)
+Full practice session:
+Solve one complete web CTF room such as:
+TryHackMe Web CTF room
+picoCTF web challenge set
