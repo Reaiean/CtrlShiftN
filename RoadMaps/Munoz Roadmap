@@ -25,3 +25,36 @@ Incident detection basics
 Indicators of Compromise (IOCs)
 Understanding logs as forensic evidence
 False positives vs real incidents
+
+
+Week 2: Evidence Collection & Preservation
+Focus: How investigators safely collect cyber evidence
+
+Days 7–8
+Evidence preservation rules
+Chain of custody
+Documentation standards
+Hashing basics (MD5, SHA-256)
+
+Practice:
+Simulate evidence handling
+Generate and verify file hashes
+
+Days 9–10
+Disk forensics concepts
+Disk imaging vs file copying
+Deleted file awareness
+File metadata
+
+Practice:
+TryHackMe: Disk Forensics
+Analyze a disk image
+
+Days 11–12
+Memory forensics concepts
+Why RAM matters in cyber attacks
+Running processes & network connections
+
+Practice:
+Volatility walkthrough (basic)
+Identify suspicious processes
