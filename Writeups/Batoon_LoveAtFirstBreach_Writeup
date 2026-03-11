@@ -1,0 +1,41 @@
+Hidden Deep Into My Heart – TryHackMe Write-Up
+Introduction
+
+The Hidden Deep Into My Heart room in TryHackMe is a beginner-level web security challenge that focuses on web reconnaissance and information disclosure.
+The challenge presents a simple website where important information is hidden within files that are not immediately visible to regular users.
+The main goal of this room is to investigate the web application, discover hidden files or directories, and retrieve the flag. This challenge demonstrates how attackers can find sensitive information through careful observation and basic enumeration techniques.
+Through this activity, I learned how small configuration mistakes in web applications can expose important information.
+
+Step 1: Deploying the Machine
+
+I started by deploying the machine on TryHackMe. After the environment finished loading, the platform provided a target IP address.
+To access the website, I opened my browser and entered the provided IP address. This loaded the target web page where the challenge takes place.
+At first glance, the page looked very simple and did not provide many obvious clues about where the flag might be located.
+
+Step 2: Exploring the Website
+
+Since the main page did not show much information, I began exploring the site more carefully.
+One common technique in web security testing is to check for special files that might contain hidden information. One of the first files I checked was robots.txt.
+The robots.txt file is normally used to tell search engines which pages they should not index. However, developers sometimes accidentally leave sensitive paths or hints inside this file.
+When I accessed the robots.txt file in the browser, I discovered a hidden directory and a clue that hinted at the location of something important.
+
+Step 3: Accessing the Hidden Directory
+
+Using the information found in robots.txt, I navigated to the hidden directory mentioned in the file.
+This directory revealed additional content related to the challenge. After exploring the files inside the directory, I found information that led me closer to discovering the flag.
+This step showed how important it is to inspect publicly accessible files when performing web reconnaissance.
+
+Step 4: Discovering the Flag
+
+After following the clues hidden within the website’s files, I eventually located the flag stored within the application.
+The flag was hidden in a place that was not directly visible from the homepage but could be discovered by exploring the paths revealed in the robots.txt file.
+Once I found the flag, I copied it and submitted it on the TryHackMe platform to complete the room successfully.
+
+Conclusion:
+The Hidden Deep Into My Heart challenge demonstrates how attackers can gather information from publicly accessible files during the reconnaissance phase of a web security assessment.
+Through this challenge, I learned the importance of:
+
+Checking files like robots.txt during web enumeration
+Exploring hidden directories and paths in web applications
+Understanding how small misconfigurations can expose sensitive information
+Overall, this room helped reinforce the concept that even simple web applications can leak important data if they are not properly secured.
