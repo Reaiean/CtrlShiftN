@@ -1,1 +1,27 @@
+CryptoHack Introduction – ASCII Write-Up
+Introduction
 
+The ASCII challenge in the introduction of CryptoHack teaches the basic concept of how computers represent text using numbers.
+ASCII stands for American Standard Code for Information Interchange, which is a character encoding standard used by computers to represent letters, numbers, and symbols.
+In this challenge, a list of decimal numbers is provided. Each number corresponds to a specific character in the ASCII table. 
+The task is to convert these numbers into their respective characters in order to reveal the hidden message.
+
+Understanding ASCII
+
+ASCII works by assigning a unique numerical value to each character. For example:
+
+65 represents the letter A
+66 represents the letter B
+97 represents the letter a
+48 represents the number 0
+
+By converting these numbers to their corresponding ASCII characters, we can transform numerical data into readable text.
+
+Result
+After converting all the ASCII values into characters, the decoded message becomes:
+
+crypto{ASCII_pr1nt4bl3}
+This is the flag for the challenge.
+
+Conclusion
+The ASCII challenge demonstrates how text can be encoded as numbers using the ASCII character set. By converting numerical values into characters, hidden messages can be revealed. This exercise introduces a fundamental concept used in cryptography and data encoding.
