@@ -1,1 +1,66 @@
+macOS Forensics: The Basics – TryHackMe Write-Up
+Introduction:
 
+The macOS Forensics: The Basics room in TryHackMe introduces the fundamental concepts of investigating macOS systems during a digital forensic investigation. macOS devices store many system logs, user artifacts, and application data that can provide important evidence about user activity.
+The goal of this room is to learn how investigators analyze macOS artifacts to understand what actions were performed on a system. By examining different system files and directories, investigators can discover information such as user activity, installed applications, and system events. This challenge helps build a basic understanding of macOS forensic analysis and evidence collection.
+
+Step 1: Deploying the Machine
+I started by deploying the macOS Forensics: The Basics room on TryHackMe. After the machine finished loading, the platform provided access to the investigation environment.
+
+The environment contained macOS-related forensic artifacts that needed to be examined. My task was to explore these files and answer the questions provided in the challenge.
+
+Step 2: Understanding macOS File Structure
+
+During the investigation, it is important to understand how macOS organizes its files. macOS uses a Unix-based file system where important user and system data are stored in specific directories.
+
+Some important directories in macOS include:
+
+/Users/ – contains user account data and personal files
+
+/Library/ – contains system and application support files
+
+/Applications/ – contains installed applications
+
+/var/log/ – contains system logs
+
+These directories are important sources of forensic evidence because they store information related to system activity and user behavior.
+
+Step 3: Examining User Activity
+
+One important part of macOS forensics is analyzing user activity artifacts. These artifacts help investigators understand what actions were performed on the system.
+
+Examples of user activity artifacts include:
+
+Recently opened files
+
+Application usage history
+
+Login and logout records
+
+System preferences and settings
+
+By reviewing these artifacts, investigators can determine what the user did on the system and when the activity occurred.
+
+Step 4: Investigating System Logs
+
+System logs are another important source of information during a forensic investigation. Logs record events that occur within the operating system, including system errors, application activity, and security-related events.
+
+By examining log files, investigators can identify suspicious behavior such as unauthorized logins, unusual system activity, or application crashes.
+
+These logs help reconstruct the timeline of events that happened on the system.
+
+Step 5: Answering the Challenge Questions
+
+After exploring the provided macOS artifacts, I carefully examined the files and directories related to user activity and system logs. By analyzing these artifacts, I was able to locate the information needed to answer the questions in the room.
+
+Once the required information was identified, I submitted the answers on TryHackMe to complete the challenge successfully.
+
+Conclusion:
+The macOS Forensics: The Basics room provides a good introduction to analyzing macOS systems during digital forensic investigations. It highlights how important system directories, logs, and user artifacts can reveal valuable information about system activity.
+Through this challenge, I learned the importance of:
+Understanding the macOS file system structure
+Analyzing user activity artifacts
+Examining system logs to reconstruct events
+Using forensic analysis techniques to investigate macOS systems
+
+This room helped build a basic foundation in macOS digital forensics, which is an important skill in cybersecurity investigations.
