@@ -36,9 +36,6 @@ Chain of custody
 Documentation standards
 Hashing basics (MD5, SHA-256)
 
-Practice:
-Simulate evidence handling
-Generate and verify file hashes
 
 Days 9–10
 Disk forensics concepts
@@ -46,15 +43,10 @@ Disk imaging vs file copying
 Deleted file awareness
 File metadata
 
-Practice:
-TryHackMe: Disk Forensics
-Analyze a disk image
 
 Days 11–12
 Memory forensics concepts
 Why RAM matters in cyber attacks
 Running processes & network connections
 
-Practice:
-Volatility walkthrough (basic)
-Identify suspicious processes
+
