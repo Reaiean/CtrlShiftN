@@ -1,1 +1,54 @@
+Forensic Imaging – TryHackMe Write-Up
+Introduction
+The Forensic Imaging room in TryHackMe focuses on the fundamentals of creating and analyzing a forensic image of a storage device. In digital forensics, investigators do not analyze the original storage device directly. Instead, they create a forensic image, which is an exact copy of the entire disk.
+The goal of this room is to understand how forensic images are created and how investigators verify that the copy is identical to the original evidence. This challenge demonstrates the importance of preserving digital evidence during an investigation.
 
+Step 1: Deploying the Machine
+I started by deploying the Forensic Imaging room on TryHackMe. After the machine finished loading, the platform provided access to the investigation environment and the files that needed to be analyzed.
+These files represented the evidence collected from a storage device. My task was to examine the forensic image and answer the questions provided in the room.
+
+Step 2: Understanding the Forensic Image
+In this challenge, a forensic disk image was provided instead of the original disk. A forensic image is a bit-by-bit copy of a storage device that includes:
+Existing files
+Deleted files
+Hidden files
+Unallocated space
+This allows investigators to recover important evidence without modifying the original device.
+The disk image file can usually have formats such as .img, .dd, or .E01.
+
+Step 3: Verifying the Integrity of the Image
+Before analyzing the image, it is important to verify that the file has not been altered. This is done by calculating a hash value.
+Hashing ensures that the forensic image is identical to the original storage device. If the hash values match, it confirms that the image has not been modified.
+Common hashing algorithms used in forensic investigations include:
+MD5
+SHA-1
+SHA-256
+This step is very important because it maintains the integrity of the digital evidence.
+
+Step 4: Analyzing the Disk Image
+After verifying the integrity of the forensic image, I proceeded to analyze the contents of the image. In digital forensics, investigators use tools to examine the file system and recover possible evidence.
+Some common tools used in forensic imaging analysis include:
+Autopsy
+FTK Imager
+The Sleuth Kit
+Linux command-line tools
+During the analysis, investigators typically search for:
+Deleted files
+Suspicious documents
+System logs
+Hidden or unusual files
+These artifacts may contain important information that helps answer the investigation questions.
+
+Step 5: Finding the Required Information
+While exploring the forensic image, I examined the file system and looked for files that could contain useful information. By carefully reviewing the contents of the disk image, I was able to locate the evidence required to answer the questions in the challenge.
+Once the relevant information was found, I submitted the answers on the TryHackMe platform to complete the room.
+
+Conclusion:
+The Forensic Imaging room in TryHackMe introduces the basic concept of creating and analyzing forensic disk images. Instead of examining the original storage device, investigators analyze a copy to protect the integrity of the evidence.
+Through this challenge, I learned the importance of:
+Creating bit-by-bit forensic images
+Verifying evidence using hash values
+Using forensic tools to analyze disk images
+Preserving the integrity of digital evidence
+
+This room provides a solid introduction to digital forensic investigation and evidence handling, which are essential skills in cybersecurity and incident response.
