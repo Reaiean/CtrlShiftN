@@ -1,1 +1,53 @@
+Digital Forensics Case B4DM755 – TryHackMe Write-Up
+Introduction
 
+The Digital Forensics Case B4DM755 room in TryHackMe is a beginner-level forensic investigation challenge. 
+The task is to analyze evidence collected from a compromised machine and determine what happened during the incident.
+In this case, we are given forensic artifacts such as disk images and system files that may contain traces of suspicious activity. 
+The objective is to examine these files using forensic tools and techniques in order to identify important information and capture the flag.
+This challenge helps build practical skills in digital evidence analysis, file examination, and investigative thinking.
+
+Step 1: Deploying the Machine
+I started by launching the Digital Forensics Case B4DM755 room on TryHackMe. 
+After the environment finished loading, the platform provided access to the investigation files that needed to be analyzed.
+These files represent evidence collected from a system that may have been involved in malicious activity.
+My task was to inspect the provided data and determine what information could be extracted from it.
+
+Step 2: Examining the Evidence
+The first step in any digital forensic investigation is to carefully examine the available evidence. 
+I began by listing the files provided in the challenge to understand what artifacts were available.
+These files included items such as logs, documents, and possibly compressed files or disk artifacts. 
+Each file could contain hidden clues related to the investigation.
+By checking the filenames, file sizes, and extensions, I tried to identify which files were most likely to contain useful information.
+
+Step 3: Analyzing the Files
+After identifying the files, I began analyzing them using basic forensic techniques.
+I used commands such as:
+strings – to extract readable text from files
+file – to determine the actual type of a file
+cat / less – to view file contents
+binwalk – to check for embedded files or hidden data
+These tools help investigators locate hidden information inside files that may not be visible at first glance.
+During the analysis, I carefully inspected any unusual text, encoded strings, or suspicious data that might indicate malicious activity.
+
+Step 4: Identifying Hidden Information
+While reviewing the contents of the evidence files, I noticed patterns that suggested there might be hidden or encoded information.
+In many forensic challenges, attackers attempt to hide data using techniques such as:
+Encoding data
+Embedding files inside other files
+Hiding information in metadata
+By examining the files more closely, I was able to uncover important information that pointed to the answer required for the challenge.
+
+Step 5: Recovering the Flag
+After fully analyzing the evidence, I eventually discovered the flag hidden within the forensic artifacts.
+The flag represented the key piece of information proving that the investigation was successful. I copied the flag and submitted it on TryHackMe to complete the room.
+
+Conclusion:
+The Digital Forensics Case B4DM755 room demonstrates the basic process of a digital forensic investigation. By carefully examining evidence files and using common forensic tools, it is possible to uncover hidden information and understand what happened during an incident.
+Through this challenge, I learned the importance of:
+Carefully analyzing digital evidence
+Using forensic tools to inspect files
+Looking for hidden or encoded data
+Applying investigative thinking when examining artifacts
+
+This room provided a good introduction to digital forensics and evidence analysis, which are essential skills in cybersecurity investigations.
