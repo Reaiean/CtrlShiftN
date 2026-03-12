@@ -1,1 +1,88 @@
+Intro to Digital Forensics – TryHackMe Write-Up
 
+Introduction:
+The Intro to Digital Forensics room in TryHackMe introduces the basic concepts and principles used in digital forensic investigations. Digital forensics is the process of identifying, collecting, preserving, analyzing, and presenting digital evidence from computers, networks, and other electronic devices.
+The goal of this room is to help learners understand how forensic investigators handle digital evidence and the tools used to analyze data during cybercrime investigations. This challenge provides a foundation for understanding how digital evidence can be used to determine what happened during a security incident.
+
+Step 1: Understanding Digital Forensics
+
+Digital forensics focuses on investigating digital devices to discover evidence related to cyber incidents. Investigators examine systems such as computers, smartphones, servers, and storage devices to uncover traces of activity.
+
+The main objectives of digital forensics include:
+
+Identifying digital evidence
+
+Preserving the integrity of the evidence
+
+Analyzing the collected data
+
+Presenting findings for investigation or legal purposes
+
+This process ensures that the evidence collected can be trusted and used during an investigation.
+
+Step 2: The Digital Forensics Process
+
+During the room, I learned that digital forensic investigations usually follow several important steps.
+
+The first step is Identification, where investigators determine which devices or data sources may contain relevant evidence.
+
+The second step is Preservation, where the evidence is secured so that it cannot be altered or damaged. Investigators often create forensic copies of storage devices to avoid modifying the original data.
+
+The third step is Analysis, where forensic tools are used to examine the data and find useful information such as logs, deleted files, or suspicious activity.
+
+The final step is Documentation and Presentation, where investigators record their findings and present them in a clear and structured way.
+
+Step 3: Types of Digital Evidence
+
+The room also explains that digital evidence can come from many different sources. Some common examples include:
+
+Hard drives and storage devices
+
+System logs
+
+Emails and messages
+
+Network traffic
+
+Application data
+
+Each of these sources may contain important clues that help investigators understand what happened during a security incident.
+
+Step 4: Forensic Tools
+
+Digital forensic investigators use specialized tools to examine and analyze digital evidence. These tools help recover deleted files, inspect file systems, and analyze system artifacts.
+
+Some commonly used forensic tools include:
+
+Autopsy
+
+FTK Imager
+
+EnCase
+
+The Sleuth Kit
+
+These tools allow investigators to explore storage devices and recover important data that may have been hidden or deleted.
+
+Step 5: Importance of Evidence Integrity
+
+One of the most important concepts in digital forensics is maintaining the integrity of the evidence. Investigators must ensure that the data they collect has not been altered during the investigation.
+
+To ensure integrity, investigators use techniques such as hashing, which generates a unique hash value for a file or disk image. If the hash value changes, it indicates that the data has been modified.
+
+Maintaining evidence integrity is essential because digital evidence may be used in legal cases.
+
+Conclusion:
+The Intro to Digital Forensics room in TryHackMe provides a basic overview of how digital forensic investigations work. It introduces the process of identifying, preserving, analyzing, and documenting digital evidence.
+
+Through this challenge, I learned the importance of:
+
+Understanding the digital forensic investigation process
+
+Identifying different sources of digital evidence
+
+Using forensic tools to analyze digital data
+
+Preserving the integrity of evidence during investigations
+
+This room provides a strong foundation for learning more advanced digital forensic techniques used in cybersecurity and incident response.
