@@ -50,3 +50,59 @@ Why RAM matters in cyber attacks
 Running processes & network connections
 
 
+Week 3: Host & Network Forensics
+
+Focus: Investigating compromised systems and network activity
+
+Days 13–14
+Host-based forensic analysis
+Windows and Linux artifacts such as login logs and event logs
+Tracking user activity and system changes
+
+
+Days 15–16
+Network forensics fundamentals
+Packet capture basics
+Firewall and intrusion detection logs
+
+Days 17–18
+Email and phishing forensics
+Email header analysis
+Detecting spoofed messages and malicious attachments
+
+
+Week 4: Malware Analysis & Investigation
+
+Focus: Understanding malicious activity and attacker behavior
+
+Days 19–20
+Introduction to malware forensics
+Types of malware: trojans, ransomware, spyware
+Behavioral indicators of malicious software
+
+
+Days 21–22
+Event correlation in forensic investigations
+Timeline reconstruction techniques
+Identifying attack stages
+
+Days 23–24
+Attacker tactics and techniques
+Basic understanding of attacker behavior patterns
+Limitations of attacker attribution
+
+
+Days 25–26
+Writing forensic reports
+Documenting findings clearly
+Presenting technical results to non-technical audiences
+
+
+Week 5: Investigation Project & Review
+
+Focus: Applying the full forensic workflow
+
+Days 27–28
+Simulated cyber incident investigation
+Evidence identification, collection, and analysis
+
